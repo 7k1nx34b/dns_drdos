@@ -1,0 +1,9 @@
+[package]
+name = "dns_drdos"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pnet = "0.35.0"
+rand = "0.9.0"
+
