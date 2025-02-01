@@ -7,7 +7,6 @@ pub mod resolv {
     use std::net::{IpAddr, Ipv4Addr};
     use pnet::datalink;
     use pnet::datalink::{Channel, NetworkInterface};
-    use pnet::datalink::Channel::Ethernet;
     use pnet::packet::arp::{ArpHardwareTypes, ArpOperations, ArpPacket, MutableArpPacket};
     use pnet::packet::ethernet::{EtherTypes, EthernetPacket, MutableEthernetPacket};
     use pnet::packet::Packet;
